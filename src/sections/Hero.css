@@ -1,0 +1,75 @@
+.hero {
+  background: radial-gradient(circle at top left, #1c1c2e, #0f0f1c);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 12%;
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-content {
+  max-width: 750px;
+}
+
+.tagline {
+  color: #c084fc;
+  font-size: 1rem;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+.role {
+  font-size: 1.4rem;
+  color: #a0aec0;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: #a0aec0;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #8a2be2, #4f46e5);
+  color: white;
+  box-shadow: 0 4px 14px rgba(138, 43, 226, 0.3);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(to right, #c084fc, #6366f1);
+  box-shadow: 0 4px 20px rgba(192, 132, 252, 0.5);
+}
+
+.btn-outline {
+  border: 2px solid #c084fc;
+  color: #c084fc;
+}
+
+.btn-outline:hover {
+  background-color: #c084fc;
+  color: #111827;
+}

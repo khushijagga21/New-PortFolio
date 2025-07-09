@@ -1,0 +1,35 @@
+.footer {
+  background: #1e293b;
+  padding: 40px 12%;
+  text-align: center;
+  color: #cbd5e1;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer h3 {
+  color: #c084fc;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.footer p {
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+}
+
+.social-links a {
+  color: #cbd5e1;
+  margin: 0 10px;
+  font-size: 1.3rem;
+  transition: 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #c084fc;
+}
+
+.footer .copyright {
+  margin-top: 20px;
+  font-size: 0.85rem;
+  color: #94a3b8;
+}

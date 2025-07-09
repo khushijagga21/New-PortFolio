@@ -1,0 +1,65 @@
+.glass-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(20px);
+  background: rgba(18, 18, 32, 0.6);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  padding: 15px 0;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  color: #00f2ff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #8a2be2, #00f2ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.nav-links li a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.nav-links li a:hover {
+  background: linear-gradient(to right, #8a2be2, #00f2ff);
+  color: #fff;
+  box-shadow: 0 0 10px rgba(138, 43, 226, 0.3);
+}
+
+.resume-btn {
+  background: #00f2ff;
+  color: #111;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.resume-btn:hover {
+  background: #8a2be2;
+  color: #fff;
+}

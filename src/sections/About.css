@@ -1,0 +1,39 @@
+.about {
+  background-color: #111827;
+  color: #ffffff;
+  padding: 100px 12%;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.about-image img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  border: 4px solid #8a2be2;
+  box-shadow: 0 8px 20px rgba(138, 43, 226, 0.2);
+  object-fit: cover;
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+.about-text h2 {
+  font-size: 2.2rem;
+  color: #c084fc;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #cbd5e1;
+  margin-bottom: 18px;
+}

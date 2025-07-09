@@ -1,0 +1,105 @@
+.projects {
+  background: #0f172a;
+  color: #ffffff;
+  padding: 100px 12%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #c084fc;
+  font-weight: 600;
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.project-card {
+  background: #1e293b;
+  border-radius: 14px;
+  overflow: hidden;
+  max-width: 330px;
+  flex: 1;
+  transition: 0.3s;
+  box-shadow: 0 6px 18px rgba(138, 43, 226, 0.1);
+}
+
+.project-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 10px 24px rgba(192, 132, 252, 0.3);
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: 0.3s ease-in-out;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(138, 43, 226, 0.4), rgba(15, 23, 42, 0.9));
+  opacity: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  transition: opacity 0.3s ease-in-out;
+  padding: 20px;
+}
+
+.overlay h3 {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.project-info {
+  padding: 20px;
+}
+
+.project-info p {
+  font-size: 0.95rem;
+  color: #cbd5e1;
+  margin-bottom: 8px;
+}
+
+.project-info .tech {
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+.links a {
+  display: inline-block;
+  margin-right: 12px;
+  margin-top: 10px;
+  padding: 6px 14px;
+  background: #8a2be2;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.links a:hover {
+  background: #c084fc;
+  color: #111;
+}
