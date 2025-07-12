@@ -6,6 +6,7 @@
   padding: 0 12%;
   color: #ffffff;
   font-family: 'Segoe UI', sans-serif;
+  box-sizing: border-box;
 }
 
 .hero-content {
@@ -72,4 +73,71 @@
 .btn-outline:hover {
   background-color: #c084fc;
   color: #111827;
+}
+
+/* 🔧 RESPONSIVE STYLING */
+@media (max-width: 1024px) {
+  .hero {
+    padding: 0 6%;
+  }
+
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .role {
+    font-size: 1.2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    text-align: center;
+    justify-content: center;
+    padding: 60px 5% 40px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .name {
+    font-size: 2.2rem;
+  }
+
+  .role {
+    font-size: 1.05rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .name {
+    font-size: 1.8rem;
+  }
+
+  .role {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
 }

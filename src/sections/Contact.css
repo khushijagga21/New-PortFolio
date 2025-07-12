@@ -1,9 +1,10 @@
 .contact {
   padding: 60px 20px;
   text-align: center;
-  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); /* Updated background */
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
   color: white;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: 'Segoe UI', sans-serif;
 }
 
 .contact h2 {
@@ -57,7 +58,6 @@
   background: linear-gradient(135deg, #6246ea, #7f5af0);
 }
 
-/* Stylish success message */
 .success-msg {
   margin-top: 1.5rem;
   padding: 16px;
@@ -87,5 +87,51 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* 🔧 Responsive Styling */
+@media (max-width: 768px) {
+  .contact {
+    padding: 50px 10%;
+  }
+
+  .contact h2 {
+    font-size: 2rem;
+  }
+
+  .contact p {
+    font-size: 0.95rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.95rem;
+  }
+
+  .contact-form button {
+    font-size: 0.95rem;
+  }
+
+  .success-msg span {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    padding: 40px 6%;
+  }
+
+  .contact h2 {
+    font-size: 1.8rem;
+  }
+
+  .contact p {
+    font-size: 0.9rem;
+  }
+
+  .success-msg span {
+    font-size: 1rem;
   }
 }

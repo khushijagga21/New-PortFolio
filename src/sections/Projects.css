@@ -14,8 +14,8 @@
 }
 
 .project-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards on large screens */
   gap: 30px;
   justify-content: center;
 }
@@ -24,8 +24,7 @@
   background: #1e293b;
   border-radius: 14px;
   overflow: hidden;
-  max-width: 330px;
-  flex: 1;
+  max-width: 100%;
   transition: 0.3s;
   box-shadow: 0 6px 18px rgba(138, 43, 226, 0.1);
 }
@@ -103,9 +102,47 @@
   background: #c084fc;
   color: #111;
 }
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 cards in a row */
-  gap: 30px;
+
+/* 🔧 Responsive Layout */
+@media (max-width: 1024px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards */
+  }
+
+  .section-title {
+    font-size: 2.2rem;
+  }
 }
 
+@media (max-width: 768px) {
+  .projects {
+    padding: 80px 8%;
+  }
+
+  .project-grid {
+    grid-template-columns: repeat(1, 1fr); /* 1 card */
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects {
+    padding: 60px 5%;
+  }
+
+  .section-title {
+    font-size: 1.7rem;
+  }
+
+  .project-info p {
+    font-size: 0.9rem;
+  }
+
+  .links a {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+  }
+}
