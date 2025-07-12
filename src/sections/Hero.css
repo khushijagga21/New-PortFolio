@@ -96,13 +96,20 @@
 
 @media (max-width: 768px) {
   .hero {
+    flex-direction: column; /* ✅ IMPORTANT */
     text-align: center;
     justify-content: center;
     padding: 60px 5% 40px;
   }
 
+  .hero-content {
+    width: 100%;
+    margin: 0 auto;
+  }
+
   .hero-buttons {
     justify-content: center;
+    gap: 16px;
   }
 
   .name {

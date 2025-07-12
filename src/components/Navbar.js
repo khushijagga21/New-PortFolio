@@ -29,7 +29,10 @@ const Navbar = () => {
           <li><a href="#about" onClick={toggleMenu}>About</a></li>
           <li><a href="#services" onClick={toggleMenu}>Services</a></li>
           <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+
           <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
+          
           <li><a href="/resume.pdf" className="resume-btn" onClick={toggleMenu}>Resume</a></li>
         </ul>
       </div>
