@@ -4,36 +4,40 @@ import { motion } from 'framer-motion';
 import { FiMenu, FiX } from 'react-icons/fi';
 
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [open, setOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
+  const toggleMenu = () => setOpen(!open);
+  const closeMenu = () => setOpen(false);
 
   return (
     <motion.nav
       className="glass-navbar"
       initial={{ y: -60, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.6, ease: 'easeOut' }}
+      transition={{ duration: 0.6 }}
     >
       <div className="nav-container">
         <div className="nav-logo">✨ Khushi.dev</div>
 
-        <div className="menu-icon" onClick={toggleMenu}>
-          {menuOpen ? <FiX /> : <FiMenu />}
+        {/* Toggle button (hamburger) */}
+        <div className="nav-toggle" onClick={toggleMenu}>
+          {open ? <FiX size={26} color="#fff" /> : <FiMenu size={26} color="#fff" />}
         </div>
 
-        <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-          <li><a href="#hero" onClick={toggleMenu}>Home</a></li>
-          <li><a href="#about" onClick={toggleMenu}>About</a></li>
-          <li><a href="#services" onClick={toggleMenu}>Services</a></li>
-          <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
-          <li><a href="#experience">Experience</a></li>
-
-          <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
-          
-          <li><a href="/resume.pdf" className="resume-btn" onClick={toggleMenu}>Resume</a></li>
+        {/* Links (visible on larger screens or when toggled) */}
+        <ul className={`nav-links ${open ? 'open' : ''}`}>
+          {['Home', 'About', 'Services', 'Projects','Experience', 'Contact',].map((item) => (
+            <li key={item}>
+              <a href={`#${item.toLowerCase()}`} onClick={closeMenu}>
+                {item}
+              </a>
+            </li>
+          ))}
+          <li>
+            <a href="/resume.pdf" className="resume-btn" onClick={closeMenu}>
+              Resume
+            </a>
+          </li>
         </ul>
       </div>
     </motion.nav>

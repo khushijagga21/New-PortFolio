@@ -76,48 +76,35 @@
 }
 
 /* 🔧 RESPONSIVE STYLING */
-@media (max-width: 1024px) {
-  .hero {
-    padding: 0 6%;
-  }
-
-  .name {
-    font-size: 2.5rem;
-  }
-
-  .role {
-    font-size: 1.2rem;
-  }
-
-  .description {
-    font-size: 1rem;
-  }
-}
-
 @media (max-width: 768px) {
   .hero {
-    flex-direction: column; /* ✅ IMPORTANT */
+    padding: 80px 5% 40px;
     text-align: center;
+    flex-direction: column;
     justify-content: center;
-    padding: 60px 5% 40px;
   }
 
   .hero-content {
-    width: 100%;
-    margin: 0 auto;
+    max-width: 100%;
   }
 
   .hero-buttons {
     justify-content: center;
+    flex-direction: column;
     gap: 16px;
   }
 
+  .btn {
+    width: 100%;
+    max-width: 280px;
+  }
+
   .name {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   .role {
-    font-size: 1.05rem;
+    font-size: 1.1rem;
   }
 
   .description {
@@ -127,11 +114,11 @@
 
 @media (max-width: 480px) {
   .name {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .role {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .description {
@@ -139,12 +126,7 @@
   }
 
   .btn {
-    width: 100%;
-    text-align: center;
-  }
-
-  .hero-buttons {
-    flex-direction: column;
-    gap: 12px;
+    font-size: 0.9rem;
   }
 }
+
