@@ -17,16 +17,21 @@ const About = () => {
           {/* <img src={profileImg} alt="Khushi Jagga" /> */}
         </div>
         <div className="about-text">
-          <h2>About Me</h2>
+          <h2>About Me 💜</h2>
           <p>
-            I’m <strong>Khushi Jagga</strong>, a frontend developer passionate about clean UI and beautiful digital experiences.
-            I love bringing ideas to life through responsive and interactive websites.
+            I'm <strong>Khushi Jagga</strong>, a final-year Electronics and Communication Engineering student, passionate <strong>Frontend Developer</strong>, <strong>Open-Source Contributor</strong>, and <strong>Freelancer</strong>.
           </p>
           <p>
-            With a strong foundation in React, CSS, and modern web design principles, I help startups and clients elevate their brand through design and code.
+            With a strong foundation in <strong>React</strong>, <strong>CSS</strong>, and modern web development practices, I craft responsive and user-friendly interfaces that blend creativity and functionality.
           </p>
           <p>
-            I’m currently exploring animations, 3D effects, and freelance opportunities. Let's collaborate and create something impactful.
+            I’ve participated in national-level hackathons — including being a <strong>finalist at HackRx</strong> and a <strong>semi-finalist at the HP Hackathon</strong> — where I contributed to building impactful tech solutions under tight deadlines.
+          </p>
+          <p>
+            Apart from coding, I’m a <strong>confident communicator</strong>, <strong>active listener</strong>, and a <strong>collaborative team player</strong>. These skills help me connect well with teams, clients, and users.
+          </p>
+          <p>
+            I'm currently seeking opportunities in <strong>MERN Stack Development</strong>, <strong>Frontend Engineering</strong>, <strong>Salesforce Development</strong>, and <strong>Software Development</strong> roles. Let's collaborate and build something meaningful together!
           </p>
         </div>
       </motion.div>

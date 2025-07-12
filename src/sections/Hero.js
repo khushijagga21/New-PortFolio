@@ -37,6 +37,7 @@ const Hero = () => {
         <motion.div className="hero-buttons" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.8 }}>
           <a href="#projects" className="btn btn-primary">🚀 View Projects</a>
           <a href="#contact" className="btn btn-outline">📬 Contact Me</a>
+             <a href="https://drive.google.com/file/d/1OqSFGhqoMxpeMMzpfCF4pXts4DJoYijJ/view?usp=sharing" className="btn btn-outline"> Resume</a>
         </motion.div>
       </motion.div>
     </section>

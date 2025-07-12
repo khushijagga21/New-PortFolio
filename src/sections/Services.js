@@ -6,12 +6,12 @@ import { FaCode, FaPaintBrush, FaLaptopHouse } from 'react-icons/fa';
 const services = [
   {
     icon: <FaCode />,
-    title: 'Frontend Development',
+    title: 'Website Development',
     desc: 'Building responsive websites with React, HTML, and CSS. Optimized for performance and user experience.'
   },
   {
     icon: <FaPaintBrush />,
-    title: 'UI Design',
+    title: 'Graphic Designing',
     desc: 'Designing clean and beautiful UIs with attention to usability, consistency, and modern design trends.'
   },
   {

@@ -103,3 +103,9 @@
   background: #c084fc;
   color: #111;
 }
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards in a row */
+  gap: 30px;
+}
+

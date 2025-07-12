@@ -6,26 +6,50 @@ const projects = [
   {
     title: 'Image Editor',
     description: 'Convert and download images via a simple web UI.',
-    tech: 'React, HTML, CSS, FileSaver.js',
-    link: 'https://github.com/khushijagga21/image-editor',
+    tech: 'Python, Flask, OpenCV, HTML',
+    link: 'https://github.com/khushijagga21/Image_Editor.git',
     demo: '#',
     // image: require('../assets/project1.jpg')
   },
   {
     title: 'YouTube Insta Viewer Bot',
     description: 'Automates views using proxies and ChromeDriver.',
-    tech: 'Python, Tkinter, ChromeDriver',
-    link: 'https://github.com/khushijagga21/YouTube-Viewer',
+    tech: 'Python, Tkinter, ChromeDriver, teX, HTML',
+    link: 'https://github.com/khushijagga21/YouTube-Viewer.git',
     demo: '#',
     // image: require('../assets/project2.jpg')
   },
   {
-    title: 'Personal Portfolio',
+    title: 'Invoice-AI',
     description: 'Beautiful portfolio with React and Framer Motion.',
-    tech: 'React, Framer Motion, CSS',
-    link: 'https://github.com/khushijagga21/portfolio',
+    tech: 'React, HTML, CSS JavaScript, Python, OCR and NER',
+    link: 'https://github.com/khushijagga21/Invoice-Handling',
     demo: '#',
     // image: require('../assets/project3.jpg')
+  },
+  {
+    title: 'Guided Learning Platform',
+    description: 'Real-time weather updates based on location.',
+    tech: 'HTML, CSS, JavaScript',
+    link: 'https://github.com/khushijagga21/Guided-Learning-Platform',
+    demo: '#',
+    // image: require('../assets/weather.jpg')
+  },
+  {
+    title: 'Fuel Management System',
+    description: 'Manage your tasks efficiently with local storage.',
+    tech: 'HTML, CSS, JavaScript and Firebase',
+    link: 'https://github.com/khushijagga21/HP-PowerLab',
+    demo: '#',
+    // image: require('../assets/todo.jpg')
+  },
+  {
+    title: 'Intervue-Website',
+    description: 'Fully responsive blog with dummy post integration.',
+    tech: 'HTML and CSS',
+    link: 'https://github.com/khushijagga21/Intervue-Assignment',
+    demo: '#',
+    // image: require('../assets/blog.jpg')
   }
 ];
 
