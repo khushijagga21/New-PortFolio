@@ -7,6 +7,10 @@ import Projects from './sections/Projects';
 import Contact from './sections/Contact';
 import Footer from './components/Footer';
 import Experience from './components/Experience';
+import Hackathons from './components/Hackathons';
+import TechnicalSkills from './components/TechnicalSkills';
+import InterpersonalSkills from './components/InterpersonalSkills';
+
 
 function App() {
   return (
@@ -14,9 +18,12 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <TechnicalSkills/>
+      <InterpersonalSkills/>
       <Services/>
       <Projects />
       <Experience />
+      <Hackathons/>
 
       <Contact /> <Footer />
 

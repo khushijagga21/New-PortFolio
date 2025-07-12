@@ -1,0 +1,43 @@
+.hackathons-page {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9; /* adjust to your theme */
+  min-height: 100vh;
+}
+
+.hackathons-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hackathons-title {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.hackathons-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 3rem;
+}
+
+.hackathons-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.hackathon-item {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  flex: 1 1 250px;
+}
+
+.hackathon-item h2 {
+  margin-bottom: 0.5rem;
+  color: #007bff; /* your accent color */
+}

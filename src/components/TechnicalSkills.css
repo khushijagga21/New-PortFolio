@@ -1,0 +1,64 @@
+.skills {
+  padding: 4rem 2rem;
+  background: #0a0f2c; /* match your hero/nav dark background */
+}
+
+.skills-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  color: #f0f0f0;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.skill-item {
+  background: rgba(255, 255, 255, 0.05); /* semi-transparent dark */
+  color: #f0f0f0;
+  padding: 1rem 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s;
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+  border: 1px solid #00ffff; /* neon accent */
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.3);
+}
+
+/* Responsive tweaks */
+
+@media (max-width: 768px) {
+  .skills-title {
+    font-size: 2.5rem;
+  }
+
+  .skill-item {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills {
+    padding: 3rem 1rem;
+  }
+
+  .skills-title {
+    font-size: 2rem;
+  }
+
+  .skill-item {
+    font-size: 0.9rem;
+    padding: 0.8rem 1.2rem;
+  }
+}

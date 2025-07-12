@@ -26,7 +26,7 @@ const Navbar = () => {
 
         {/* Links (visible on larger screens or when toggled) */}
         <ul className={`nav-links ${open ? 'open' : ''}`}>
-          {['Home', 'About', 'Services', 'Projects','Experience', 'Contact',].map((item) => (
+          {['Home', 'About', 'Services', 'Projects','Experience', 'Contact',,].map((item) => (
             <li key={item}>
               <a href={`#${item.toLowerCase()}`} onClick={closeMenu}>
                 {item}

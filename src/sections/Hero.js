@@ -25,7 +25,7 @@ const Hero = () => {
   animate={{ x: 0, opacity: 1 }}
   transition={{ delay: 0.5 }}
 >
-  MERN Stack Developer, Open-Source Contributor and Freelancer
+  Web Developer, Open-Source Contributor and Freelancer
 </motion.h2>
 
 

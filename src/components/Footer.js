@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <h3>👩‍💻 Khushi Jagga</h3>
-        <p>Frontend Developer | React | UI Enthusiast</p>
+        <p>Web Developer | Freelancer | Open-Source Contributor</p>
         <div className="social-links">
           <a href="https://github.com/khushijagga21" target="_blank" rel="noreferrer"><FaGithub /></a>
           <a href="https://www.linkedin.com/in/khushi-jagga21/" target="_blank" rel="noreferrer"><FaLinkedin /></a>

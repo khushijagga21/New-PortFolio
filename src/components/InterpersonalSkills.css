@@ -1,0 +1,64 @@
+.soft-skills {
+  padding: 4rem 2rem;
+  background: #0a0f2c; /* match your dark theme */
+}
+
+.soft-skills-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  color: #f0f0f0;
+}
+
+.soft-skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.soft-skill-item {
+  background: rgba(255, 255, 255, 0.05);
+  color: #f0f0f0;
+  padding: 1rem 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s;
+}
+
+.soft-skill-item:hover {
+  transform: translateY(-5px);
+  border: 1px solid #ff80ff; /* soft purple/pink accent */
+  box-shadow: 0 0 12px rgba(255, 128, 255, 0.3);
+}
+
+/* Responsive tweaks */
+
+@media (max-width: 768px) {
+  .soft-skills-title {
+    font-size: 2.5rem;
+  }
+
+  .soft-skill-item {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .soft-skills {
+    padding: 3rem 1rem;
+  }
+
+  .soft-skills-title {
+    font-size: 2rem;
+  }
+
+  .soft-skill-item {
+    font-size: 0.9rem;
+    padding: 0.8rem 1.2rem;
+  }
+}
