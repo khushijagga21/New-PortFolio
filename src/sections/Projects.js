@@ -48,7 +48,15 @@ const projects = [
     description: 'Fully responsive blog with dummy post integration.',
     tech: 'HTML and CSS',
     link: 'https://github.com/khushijagga21/Intervue-Assignment',
-    demo: '#',
+    demo: 'https://intervue-assignment-ten.vercel.app/',
+    // image: require('../assets/blog.jpg')
+  },
+   {
+    title: 'Real-Estate Website',
+    description: 'Fully responsive blog with dummy post integration.',
+    tech: 'React and Tailwind CSS',
+    link: 'https://github.com/khushijagga21/RootsAndRoofs',
+    demo: 'https://roots-and-roofs.vercel.app/',
     // image: require('../assets/blog.jpg')
   }
 ];
