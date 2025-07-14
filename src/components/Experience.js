@@ -4,27 +4,28 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
-    role: 'Frontend Developer Intern',
-    company: 'Digimantra',
-    logo: '/logos/digimantra.png',
-    date: 'May 2024 – Jul 2024',
-    description: 'Built modern UI using React & Tailwind, integrated APIs, and delivered pixel-perfect responsive components.',
+    role: 'React Developer Intern',
+    company: 'NED Gaming',
+    date: 'July 2024 – Aug 2025',
+    description:
+      'Interned as a React Developer at NED Gaming Limited, where I developed and optimized frontend features using React.js. I worked on responsive UI design, API integration, and performance enhancements. Collaborated with designers and developers in an Agile environment, gaining hands-on experience with React Hooks, Context API, and Git version control.',
     tech: ['React', 'Tailwind', 'REST APIs'],
   },
   {
     role: 'Open Source Contributor',
-    company: 'GSSoC',
-    logo: '/logos/gssoc.png',
+    company: 'GirlScript Summer of Code',
     date: 'Mar 2024 – May 2024',
-    description: 'Contributed to projects with PRs, bug fixes, and documentation enhancements across multiple repos.',
+    description:
+      'Contributed to multiple open-source projects during GirlScript Summer of Code 2025. Worked on frontend and full-stack features using React.js, JavaScript, Python, Node.js, and API integration. Collaborated with maintainers via GitHub, submitted pull requests, resolved issues, improved UI/UX, and reviewed code.',
     tech: ['GitHub', 'Open Source', 'JavaScript'],
   },
   {
-    role: 'Freelancer',
-    company: 'Personal Projects',
-    logo: '/logos/freelance.png',
+    role: 'Subject Matter Expert (Computer Science)',
+    company: 'Chegg',
+   
     date: 'Jan 2024 – Present',
-    description: 'Worked with clients to build stunning websites, portfolios, and UI components using React and EmailJS.',
+    description:
+      'As a Subject Matter Expert at Chegg, I helped students by providing clear, step-by-step solutions to complex Computer Science problems. Topics included Data Structures, Algorithms, Databases, and OOP. This role sharpened my problem-solving skills and deepened my subject knowledge.',
     tech: ['React', 'HTML/CSS', 'EmailJS'],
   },
 ];
